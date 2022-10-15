@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    background-color: #364FC7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > figure > img {
+    max-height: 80px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.pesquisa {
+    margin-top: 30px;
+}
+
+.pesquisa > label {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+#pesquisarPais {
+    padding: 5px 70px 5px 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.form > button {
+    background-color: #364FC7;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+
+#exemploPesquisa {
+    color: #868E96;
+    font-size: 10px;
+}
+
+.tabela {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+thead {
+    background-color: #364FC7;
+}
+
+th {
+    background-color: #364FC7;
+    height: 30px;
+}
+
+.tabelaPosicao {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+
+.tabelaPais {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.tabelaPais > p {
+    font-weight: 400;
+    display: block;
+    margin: auto auto;
+}
+
+.tabelaMedalha {
+    width: 120px;
+    text-align: center;
+}
+
+.bandeira {
+    width: 80px;
+    height: 50px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+button {
+    background-color: #536ced;
+    padding: 5px 20px;
+    border: none;
+}
+
+@media screen and (min-width: 769px) {
+    .form {
+        flex-direction: row;
+    }
+    .bandeira {
+        width: 100px;
+        height: 50px;
+    }
+    .tabelaPais {
+        width: 500px;
+    }
+}

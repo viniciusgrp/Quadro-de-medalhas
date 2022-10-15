@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medalhas olímpicas</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="./src/img/pngolimpiadas.png" alt="">
+        </figure>
+    </header>
+    <main class="container">
+        <div class="pesquisa">
+            <label for="pesquisarPais">Pesquisa</label>
+            <div class="form">
+                <input type="text" name="pesquisarPais" id="pesquisarPais" placeholder="Pesquisa por país" required>
+                <button id="btnPesquisa">Pesquisar</button>
+            </div>
+            <span id="exemploPesquisa">Ex: Brasil</span>
+        </div>
+        <div class="tabela">
+            <table>
+                <thead>
+                    <th class="tabelaPosicao"><button>Posicao</button></th>
+                    <th class="tabelaPais"><p>País</p></th>
+                    <th class="tabelaMedalhas"><button id="btnOuro">Ouro</button></th>
+                    <th class="tabelaMedalhas"><button id="btnPrata">Prata</button></th>
+                    <th  class="tabelaMedalhas"><button id="btnBronze">Bronze</button></th>
+                    <th class="tabelaMedalhas"><button id="btnTotal">Total</button></th>
+                </thead>
+                <tbody id="listaPaises">
+                    <tr>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script type="module" src="./src/js/script.js"></script>
+</body>
+</html>
