@@ -1,8 +1,6 @@
-# Extra: Quadro de Medalhas
+Nesse projeto o objetivo é construir um quadro para exibir as medalhas dos 15 países que mais tiveram vitórias nas competições das Olimpíadas. (Dados ficticios fornecidos por API)
 
-## Introdução
-
-Nessa atividade, você vai construir um quadro para exibir as medalhas dos 15 países que mais tiveram vitórias nas competições das Olimpíadas.
+Confira o resultado: https://viniciusgrp.github.io/Quadro-de-medalhas/
 
 Sua aplicação irá exibir a quantidade de medalhas de ouro, prata e bronze de cada país, além da soma total de totas as medalhas!
 
@@ -34,9 +32,6 @@ Para a construção dessa aplicação, você terá algumas tarefas a cumprir. Vo
 
 ## Bônus
 
-> **Importante!**
-> 
-> Por ser uma parte Bônus dessa entrega, ela não é **Obrigatória**. Sendo assim, é aceitável que tenha um nível de dificuldade maior.
 
 Para melhorar seu conhecimento e aprendizagem com o POO, que tal refatorar essa entrega e utilizar seus conceitos, criando assim classes que possam ser reutilizadas?
 
@@ -45,12 +40,3 @@ Iniciar do zero seria a melhor forma, caso ainda não tenha começado, mas aqui 
 - Inicie pela desconstrução da sua classe, ou seja, quais são as suas características (atributos ou propriedades) e o que pode fazer (métodos ou funções).
 - Utilize Boas práticas que lhe foram passadas durante o módulo.
 - Quais serão suas funcionalidades e como elas irão interagir entre si e seus dados.
-
-## Entrega
-
-Faça o push do código para o seu repositório GitHub e implemente-o
-GitHub pages. Coloque seu repositório como **Privado** e adicione em
-**Configurações > Colaboradores e Times** o time **team-m2-correcoes**. No
-Canvas, por favor, envie sua url do GitHub Pages: (ex:
-https://nomedeusuario.github.io/oregon-trail-inheritance) e envie o link
-do seu repositório nos comentários.
